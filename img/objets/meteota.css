@@ -1,0 +1,501 @@
+body
+{
+	font-family: verdana, arial, sans-serif;
+	color: #000000;
+	background-color: #cccccc;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	margin: 0px;
+	padding: 10px;
+}
+
+
+
+h1
+{
+	color: #3415AF;
+	font-size: 1.4em;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+h2
+{
+	color: #5553DF;
+	font-size: 1.3em;
+	margin-left: 20px;
+}
+
+h3
+{
+	margin-left:20px;
+	font-size: 1.2em;
+	color: #999999;
+	border-bottom: 1px solid #999999;
+}
+
+h4
+{
+	margin-left:30px;
+	font-size: 1.1em;
+	color: #38373F;
+	font-style: italic;
+}
+
+a
+{
+	color : #CC0000;
+	border: 0px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color : #FF3F3F;
+}
+
+.gras
+{
+	font-weight: bold;
+}
+
+.souli
+{
+	text-decoration: underline;
+}
+.italique
+{
+	font-style: italic;
+}
+
+.center
+{
+	text-align: center;
+	margin: 10px;
+	display: block;
+}
+
+p
+{
+	font-size: 0.9em;
+	background-color:#f0f0f0;
+	border: #c9c9c9 1px solid;
+	text-align: justify;
+	padding: 10px;
+	margin-left:20px;
+	margin-right: 20px;
+}
+
+ul, li
+{
+	list-style-type: none;
+	margin: 10;
+	padding: 0;
+	text-align: justify;
+}
+
+#bannierehaut
+{
+	position: absolute;
+	top: 10px;
+	width:92%;
+	margin-left: 20px;
+	height: 102px;
+	z-index:0;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+#conteneur
+{
+	position: absolute;
+	top: 131px;
+	margin-left: 20px;
+	width:92%;
+	background-image: url(../imgs/meteo.jpg);
+	background-repeat: repeat;
+	/*
+	border-bottom: 1px solid #BFBFBF;
+	border-left: 1px solid #BFBFBF;
+	border-right: 1px solid #BFBFBF;
+	*/
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	z-index:1;
+}
+
+#annonce
+{
+	float: right;
+	display: inline;
+	width: 47%;
+	padding: 10px;
+	border: 1px solid #DFC3C3;
+	height: 250px;
+	overflow: auto;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#news, #acc_minute
+{
+	float: left;
+	display: inline;
+	width: 43%;
+	padding: 10px;
+	border: 1px dashed #DFC3C3; /*#CF0C0C;*/
+	line-height: 25px;
+	height: 500px;
+	margin: 20px;
+	overflow: auto;
+}
+
+#acc_minute
+{
+	float: right;
+}
+
+#credits
+{
+	clear:both;
+	position: absolute;
+	bottom: 0px;
+	height: 15px;
+	font-size: 0.8em;
+	text-align: center;
+	background-color: #FFEFEF;
+	border-top: 1px solid #BFBFBF;
+	width: 100%;
+	color: #BFBFBF;
+}
+
+#credits a
+{
+	color: #5F5F5F;
+}
+
+#credits a:hover
+{
+	color: #2F2F2F;
+}
+
+#onglets
+{
+	clear:both;
+	position: absolute;
+	top: 112px;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 20px;
+	width: 92%;
+	background-image: url(../imgs/bandeaumenubackrepeat.jpg);
+	background-repeat: repeat;
+	height: 20px;
+	font-size: 1em;
+	text-align: center;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	/*border-bottom: 1px solid #000000;*/
+	color: #BFBFBF;
+}
+
+#menu {
+	background-image: url(../imgs/bandeaumenubackdroite.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#onglets a
+{
+	background-image: url(../imgs/bandeaumenuseparator.gif);
+	background-repeat: no-repeat;
+	margin-right:10px;
+	padding-left:20px;
+	color: #6CB231;
+}
+
+#onglets a:hover
+{
+	color: #028301;
+}
+
+#menu_admin
+{
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	margin-right: 0px;
+	width: 20%;
+	display: inline;
+	background-color:#f0f0f0;
+	border: #c9c9c9 1px solid;
+	text-align: left;
+	padding: 10px;
+	line-height: 20px;
+}
+
+#menu_admin a
+{
+	display: block;
+}
+
+
+#droite
+{
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	width: 70%;
+	display: inline;
+	width:70%;
+	padding: 20px;
+	border: 1px solid #c9c9c9;
+}
+
+#left-compte{
+	width: 50%;
+	float: left;
+}
+
+#right-compte{
+	width: 50%;
+	float: right;
+	text-align:center;
+}
+
+.warn
+{
+	color: #CC0000;
+	font-weight: bold;
+	text-decoration: blink;
+}
+
+.ok
+{
+	margin: 10px;
+	padding: 5px;
+	font-size: 1em;
+	color: #4F9F27;
+	border: 1px dotted #4F9F27;
+}
+
+/* pour les champs de formulaires  */
+input, textarea, select
+{
+ background-color:#f0f0f0;
+ border: 1px solid #CC0000;
+ font-family: verdana, arial, sans-serif;
+ font-size: 10px;
+ color: #000000;
+ padding: 1px;
+ width: 150px;
+ margin-left: 5px;
+ margin-right: 20px;
+}
+
+textarea
+{
+	height: 200px;
+	width: 90%;
+}
+
+.no_width
+{
+	width: auto;
+	margin-bottom: 0px;
+	display: inline;
+}
+
+.commerce
+{
+	margin: 3px;
+	width: 40px;
+}
+
+.button
+{
+	width: 200px;
+	color: #000000;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #ffffff;
+	font-weight: bold;
+}
+
+#droite table
+{
+	border-collapse:collapse;
+	margin: 10px;
+	padding: 10px;
+	margin-left:20px;
+	margin-right: 20px;
+}
+
+#droite td,th
+{
+	border: 1px solid #C0C0C0;
+	padding:10px;
+	text-align: center;
+	font-size : 11px;
+}
+.menuimage {
+	position: absolute;
+	right: 0px;
+}
+
+/*#pagecontent {
+	background-image: url(../imgs/bandeaumenucharette.jpg);
+	background-repeat: no-repeat;
+	background-position: right center ;
+}*/
+
+.progress_bar
+{
+	width: 0px;
+	border: 1px solid #CC0000;
+	height: 15px;
+}
+
+#maps
+{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 50px;
+	z-index: 10;
+}
+
+#maps img
+{
+	cursor: pointer;
+}
+
+#maps p
+{
+	font-size: 0.6em;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	width: 85px;
+}
+
+#zoom_map
+{
+	top: 0;
+	width: 40%;
+	left: 0;
+	text-align: center;
+	margin: 5% 10% 5% 25%;
+	padding: 10% 5% 10% 5%;
+	display:none;
+	z-index: 20;
+	position: absolute;
+	border: 1px solid #000000;
+	background-color: #DFDFDF;
+	moz-opacity: 0.8;
+}
+
+.braves
+{
+ font-weight: bold;
+ color: #2917BF;
+ line-height: 20px;
+}
+
+.sadiques
+{
+ font-weight: bold;
+ color: #BF171E;
+ line-height: 20px;
+}
+
+.rampants
+{
+ font-weight: bold;
+ color: #20BF17;
+ line-height: 20px;
+}
+
+.rampants img
+{
+	border: 1px solid #20BF17;
+	height: 4px;
+}
+
+.sadiques img
+{
+	border: 1px solid #BF171E;
+	height: 4px;
+}
+
+.braves  img
+{
+	border: 1px solid #2917BF;
+	height: 4px;
+}
+
+.repartition
+{
+  width: 200px;
+  height: 20px;
+  border: 1px solid #111;
+}
+
+.info_minute img
+{
+  height: 15px;
+}
+
+/*  meteo Html 2*/
+#selectNiveau
+{
+	margin: 5% 0 1%;
+	width: 100%;
+	text-align: center;
+}
+
+#selectNiveau li
+{
+	display: inline;
+}
+
+#glider
+{
+	background-color: white;
+	overflow: hidden;
+	width: 50%;
+	margin: 0% 0 5% 25%;
+	height: 400px;
+	position: relative;
+}
+
+#glider p
+{
+	background: none;
+	margin: 0px;
+	padding: 0;
+	border: 0px;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+#glider td
+{
+	margin: 10px;
+	padding: 15px;
+}
+
+div#glider div.section
+{
+	z-index: 1;
+	width: 100%;
+	padding: 20px;
+}
+
